@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-
+    email_address = @email.split.uniq
   end
 
 end
